@@ -6,7 +6,7 @@ import tempfile
 
 # CONFIG:
 API_TOKEN = '' #<<< Set your bot's API token Here >>>
-bot = Bot(token=API_TOKEN)
+bot = Bot(token="6344846447:AAHV1oMJ6PNc2z1ittRK7qnG6fSvmlwcZuc")
 dp = Dispatcher(bot)
 temp = tempfile.NamedTemporaryFile(prefix="TeleShell_", mode='w+')
 
